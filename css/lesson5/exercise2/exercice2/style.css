@@ -1,0 +1,62 @@
+/* Quand la largeur de l'écran est supérieure à 900px 
+Faire un layout à 3 colonnes : sommaire à gauche, contenu
+ (articles au milieu), publicité à droite. 
+- Faire un menu horizontal */
+
+@media (min-width:900px) {
+
+    .wrapper {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-areas:
+        "menu menu menu"
+        "sommaire contenu publicite" ;
+
+    }
+    .ads {
+
+        grid-area: publicite;
+
+    }
+
+    .summary {
+    grid-area: sommaire;
+
+    }
+
+    main {
+        grid-area: contenu;
+    }
+
+    p {
+        color:red;
+    }
+}
+
+@media (min-width:200px) and (max-width:600px) {
+    p { 
+        color:yellow;
+    }
+}
+
+@media (max-width:600px) {
+    p {
+        color: green;
+    }
+}
+
+header {
+    background-color: red
+}
+
+main {
+    background-color: mediumslateblue
+}
+
+footer {
+    background-color: blueviolet
+}
+
+li {
+    background-color: plum
+}
