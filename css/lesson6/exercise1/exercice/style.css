@@ -1,0 +1,41 @@
+nav#texte1 {
+    width: 200px ;
+}
+
+a:hover {
+    background-color: yellow;
+    transition: 300ms
+}
+
+#Section1
+{
+    display: none;
+}
+
+#Section1:target
+{
+    display: block;
+    background-color: red;
+}
+
+#Section2
+{
+    display: none;
+}
+
+#Section2:target
+{
+    display: block;
+    background-color : blueviolet
+}
+
+#Section3
+{
+    display: none;
+    background-color: navy
+}
+
+#Section3:target 
+{
+    display: block;
+}
