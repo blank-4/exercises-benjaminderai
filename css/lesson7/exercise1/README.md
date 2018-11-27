@@ -1,4 +1,4 @@
-# CSS > Lesson 7 > Exercise 1
+    # CSS > Lesson 7 > Exercise 1
 
 Créer une page HTML contenant des élements par défaut :
  - une liste

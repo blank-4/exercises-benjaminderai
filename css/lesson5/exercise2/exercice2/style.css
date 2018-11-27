@@ -28,6 +28,10 @@ Faire un layout à 3 colonnes : sommaire à gauche, contenu
         grid-area: contenu;
     }
 
+    /* Quand la largeur de l'écran est inférieure à 900px et supérieure à 600px :
+    Rendre le menu vertical
+    Faire un layout à  2colonnes en cachant le sommaire. */
+
     p {
         color:red;
     }
