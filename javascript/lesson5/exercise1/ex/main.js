@@ -1,0 +1,1 @@
+var y = document.getElementById("texte").innerHTML= "lorem ipsum    ";
