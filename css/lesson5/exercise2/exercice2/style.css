@@ -9,7 +9,7 @@ Faire un layout à 3 colonnes : sommaire à gauche, contenu
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-areas:
-        "menu menu menu"
+        "menu menu menu" 
         "sommaire contenu publicite" ;
 
     }
