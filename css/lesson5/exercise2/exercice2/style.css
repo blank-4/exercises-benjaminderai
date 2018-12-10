@@ -9,11 +9,7 @@ Faire un layout à 3 colonnes : sommaire à gauche, contenu
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-areas:
-<<<<<<< HEAD
-        "menu menu menu" 
-=======
         "menu menu menu"
->>>>>>> d2999df92f6e1af60a0cd4bfdbc302018fd52f0e
         "sommaire contenu publicite" ;
 
     }
@@ -32,14 +28,10 @@ Faire un layout à 3 colonnes : sommaire à gauche, contenu
         grid-area: contenu;
     }
 
-<<<<<<< HEAD
     /* Quand la largeur de l'écran est inférieure à 900px et supérieure à 600px :
     Rendre le menu vertical
     Faire un layout à  2colonnes en cachant le sommaire. */
 
-
-=======
->>>>>>> d2999df92f6e1af60a0cd4bfdbc302018fd52f0e
     p {
         color:red;
     }
